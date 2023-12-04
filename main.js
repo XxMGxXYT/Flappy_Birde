@@ -35,8 +35,8 @@ function fall(){
     }
 }
 
-// fly()
-// fall()
+fly()
+setTimeout(() => fall(), 3000)
 
 /*
 function section_Func(){
