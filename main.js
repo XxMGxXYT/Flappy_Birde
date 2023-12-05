@@ -10,7 +10,7 @@ function fly(){
         // Make the bird fly up with 20%
         bird.style.top = `${test}%`
         // Add 20 to the right position of the bird
-        test -= 10
+        test -= 40
     })
 }
 
@@ -37,6 +37,7 @@ function fall(){
 
 fly()
 setTimeout(() => fall(), 3000)
+
 
 /*
 function section_Func(){
